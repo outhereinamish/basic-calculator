@@ -5,10 +5,7 @@
  */
 package calculator;
 
-/**
- *
- * @author collincampbell
- */
+
 public class CalculatorLogic {
     private double num1;
     private double num2;
