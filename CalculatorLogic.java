@@ -15,7 +15,7 @@ public class CalculatorLogic {
         num1 = Double.parseDouble(number);
     }
     
-    public double addition(String number) { // textfield converted to double for num2 whenever a opertion is called
+    public double addition(String number) { // textfield converted to double for num2 when equals button is pushed depending on which opertions was previously selected
         num2 = Double.parseDouble(number);
         return answer = num1 + num2;
     }
