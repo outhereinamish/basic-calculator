@@ -5,10 +5,7 @@
  */
 package calculator;
 
-/**
- *
- * @author collincampbell
- */
+
 public class calculatorGUI extends javax.swing.JFrame {
     private CalculatorLogic calc;
     private boolean clearSwitch; // use this boolean to decide if clicking a number after selecting an operation(+, -, *, /) will clear jtexfield of previously selected numbers 
@@ -75,7 +72,7 @@ public class calculatorGUI extends javax.swing.JFrame {
         
     }
     
-    public void off() {
+    public void off() { // off button
         jTextField1.setEnabled(false);
         jButton1.setEnabled(false);
         jButton2.setEnabled(false);
@@ -99,7 +96,7 @@ public class calculatorGUI extends javax.swing.JFrame {
         jRadioButton2.setEnabled(false);
     }
     
-    public void on() {
+    public void on() { // on button
         jTextField1.setEnabled(true);
         jButton1.setEnabled(true);
         jButton2.setEnabled(true);
